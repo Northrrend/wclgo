@@ -15,7 +15,7 @@ SPELL_HEAL
 -- for fc
 *| select distinct u02, u01 where type='SPELL_CAST_SUCCESS' and u01 like 'Player%'
 
-*| select u09, u10, count(*) as nums where u01= 'Player-5743-0025111C' and type='SPELL_CAST_SUCCESS' group by u10, u09 order by nums desc limit 10
+*| select u09, u10, count(*) as nums where u01= 'Player-5743-0032D63A' and type='SPELL_CAST_SUCCESS' group by u10, u09 order by nums desc limit 10
 
 *| select u09, u10, u29, u30 where type in('SPELL_HEAL', 'SPELL_PERIODIC_HEAL') and u01='Player-5743-0026F9FD'
 
